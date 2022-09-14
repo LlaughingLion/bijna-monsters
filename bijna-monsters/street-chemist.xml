@@ -13,7 +13,7 @@
 				<li><strong>Tool Proficiencies:</strong> Poisoner’s kit</li>
 				<li><strong>Equipment:</strong> A set of common clothes, a black cloak with a hood, a poisoner’s kit, and a pouch containing 10 gp</li>
 			</ul>
-			<div element="ID_WOTC_EGTW_BACKGROUND_FEATURE_SHADOW_NETWORK" />
+			<div element="ID_BACKGROUND_FEATURE_CITY_SECRETS" />
 		</description>
 		<setters>
 			<set name="short">Sleight of Hand, Survival, Poisoner’s Kit</set>
