@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="1.0.0">
-			<file name="street-chemist.xml" url="" />
+			<file name="street-chemist.xml" url="https://github.com/LlaughingLion/bijna-monsters/blob/fa18de010eab042edb2cacb2140cbddbb3455e56/bijna-monsters/street-chemist.xml" />
 		</update>
 	</info>
 	<element name="Street Chemist" type="Background" source="Bijna Monsters" id="ID_WOTC_BM_BACKGROUND_STREET_CHEMIST">
