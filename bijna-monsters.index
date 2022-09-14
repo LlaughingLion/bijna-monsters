@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<description>The official Bijna Weekend DnD supplement pack.</description>
-		<author>Bijna Weekend</author>
-		<update version="1.0.0">
-			<file name="bijna-monsters.index" url="https://github.com/LlaughingLion/bijna-monsters/blob/main/bijna-monsters.index" />
+		<update version="0.0.1">
+			<file name="bijna-monsters.index" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters.index" />
 		</update>
 	</info>
 	<files>
-		<file name="street-chemist.xml" url="https://github.com/LlaughingLion/bijna-monsters/blob/main/bijna-monsters/street-chemist.xml" />
+		<file name="street-chemist.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/street-chemist.xml" />		
 	</files>
 </index>

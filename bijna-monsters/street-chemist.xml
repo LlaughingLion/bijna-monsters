@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.0">
-			<file name="street-chemist.xml" url="https://github.com/LlaughingLion/bijna-monsters/blob/main/bijna-monsters/street-chemist.xml" />
+		<update version="0.0.1">
+			<file name="street-chemist.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/street-chemist.xml" />
 		</update>
 	</info>
 	<element name="Street Chemist" type="Background" source="Bijna Monsters" id="ID_BM_BACKGROUND_STREET_CHEMIST">

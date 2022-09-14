@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/source.xml" />
+		</update>
+	</info>
+	<element name="Bijna Monsters" type="Source" source="Core" id="ID_BM_SOURCE_BIJNA_MONSTERS">
+		<description>
+			<p><strong>The official Bijna Weekend DnD supplement!</strong></p>
+		</description>
+		<setters>
+			<set name="abbreviation">BM</set>
+			<set name="url">https://dnd.wizards.com/products/wildemount</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/jpvq9uPwzM.png</set>
+			<set name="author" abbreviation="BW">Bijna Weekend</set>
+			<set name="official">false</set>
+			<set name="supplement">true</set>
+			<set name="release">20220914</set>
+		</setters>
+	</element>	
+</elements>
