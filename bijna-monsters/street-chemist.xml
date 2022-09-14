@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="1.0.0">
+			<file name="street-chemist.xml" url="" />
+		</update>
+	</info>
+	<element name="Street Chemist" type="Background" source="Bijna Monsters" id="ID_WOTC_BM_BACKGROUND_STREET_CHEMIST">
+		<description>
+			<p>The Volstrucker are a clandestine organization of arcane assassins and enforcers in the service of the Cerberus Assembly. Their operatives bear no official title, but are referred to in hushed tones as “scourgers” by residents of large Dwendalian cities such as Zadash and Rexxentrum.</p>
+			<p class="indent">You are a Volstrucker agent. Your duty is to silence dissidents who would undermine the will of King Dwendal—and more importantly, the will of the Assembly.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Deception, Stealth</li>
+				<li><strong>Tool Proficiencies:</strong> Poisoner’s kit</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> A set of common clothes, a black cloak with a hood, a poisoner’s kit, and a pouch containing 10 gp</li>
+			</ul>
+			<div element="ID_WOTC_EGTW_BACKGROUND_FEATURE_SHADOW_NETWORK" />
+		</description>
+		<setters>
+			<set name="short">Deception, Stealth, Poisoner’s Kit, Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHT_OF_HAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+			<select type="Language" name="Language, Volstrucker Agent" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CITY_SECRETS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+		</rules>
+	</element>	
+
+	<element name="Feature: City Secrets" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_CITY_SECRETS">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.</p>
+		</description>
+		<sheet alt="City Secrets" />
+	</element>
+</elements>
