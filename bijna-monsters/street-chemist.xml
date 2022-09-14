@@ -5,26 +5,23 @@
 			<file name="street-chemist.xml" url="https://github.com/LlaughingLion/bijna-monsters/blob/main/bijna-monsters/street-chemist.xml" />
 		</update>
 	</info>
-	<element name="Street Chemist" type="Background" source="Bijna Monsters" id="ID_WOTC_BM_BACKGROUND_STREET_CHEMIST">
+	<element name="Street Chemist" type="Background" source="Bijna Monsters" id="ID_BM_BACKGROUND_STREET_CHEMIST">
 		<description>
-			<p>The Volstrucker are a clandestine organization of arcane assassins and enforcers in the service of the Cerberus Assembly. Their operatives bear no official title, but are referred to in hushed tones as “scourgers” by residents of large Dwendalian cities such as Zadash and Rexxentrum.</p>
-			<p class="indent">You are a Volstrucker agent. Your duty is to silence dissidents who would undermine the will of King Dwendal—and more importantly, the will of the Assembly.</p>
+			<p>The Street Chemist is a master of mysterious liquids. As their life has been mostly outside, surviving grim situations in shady alleyways, most of their knowledge is self-thought or copied from others. One skill in particular peaks their interest, the act of crafting and brewing various chemical substances. Whether it is combining plants and berries into a powerful poison, or distilling oil and other liquids into an intensely flammable liquid, the Street Chemist has learned it all through watching others work, eavesdrop on everyday conversations, and most importantly, a lot of trial and error.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Stealth</li>
+				<li><strong>Skill Proficiencies:</strong> Sleight of Hand, Survival</li>
 				<li><strong>Tool Proficiencies:</strong> Poisoner’s kit</li>
-				<li><strong>Languages:</strong> One of your choice</li>
 				<li><strong>Equipment:</strong> A set of common clothes, a black cloak with a hood, a poisoner’s kit, and a pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_WOTC_EGTW_BACKGROUND_FEATURE_SHADOW_NETWORK" />
 		</description>
 		<setters>
-			<set name="short">Deception, Stealth, Poisoner’s Kit, Language</set>
+			<set name="short">Sleight of Hand, Survival, Poisoner’s Kit</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHT_OF_HAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
-			<select type="Language" name="Language, Volstrucker Agent" supports="Standard||Exotic" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CITY_SECRETS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 		</rules>
 	</element>	

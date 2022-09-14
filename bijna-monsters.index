@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
+		<description>The official Bijna Weekend DnD supplement pack.</description>
+		<author>Bijna Weekend</author>
 		<update version="1.0.0">
 			<file name="bijna-monsters.index" url="https://github.com/LlaughingLion/bijna-monsters/blob/main/bijna-monsters.index" />
 		</update>
