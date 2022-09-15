@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/source.xml" />
 		</update>
 	</info>
-	<element name="Bijna Monsters" type="Source" source="Core" id="ID_BM_SOURCE_BIJNA_MONSTERS">
+	<element name="Bijna Monsters" type="Source" source="Bijna Monsters" id="ID_BM_SOURCE_BIJNA_MONSTERS">
 		<description>
 			<p><strong>The official Bijna Weekend DnD supplement!</strong></p>
 		</description>
