@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="bijna-monsters.index" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters.index" />
 		</update>
 	</info>
 	<files>
-		<file name="street-chemist.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/street-chemist.xml" />		
+		<file name="street-chemist.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/street-chemist.xml" />	
+		<file name="source.xml" url="https://raw.githubusercontent.com/LlaughingLion/bijna-monsters/master/bijna-monsters/source.xml" />		
 	</files>
 </index>
