@@ -12,6 +12,7 @@
 		<setters>
 			<set name="abbreviation">BM</set>
 			<set name="author" abbreviation="BW">Bijna Weekend</set>
+			<set name="url">https://github.com/LlaughingLion/bijna-monsters</set>
 			<set name="official">false</set>
 			<set name="supplement">true</set>
 			<set name="release">20220914</set>
